@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
+
 export default function App() {
   const [count, setCount] = useState(0);
 
@@ -10,10 +11,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello React</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <p>{count}</p>
-      <button onClick={onClickCountUp}>カウントアップ</button>
+      <input />
+      <br />
+      <br />
+      <button>表示</button>
+      
     </div>
   );
 }
